@@ -1,0 +1,254 @@
+body {
+  font-size: 12px;
+}
+.title {
+  font-size: inherit;
+}
+.separator-left{
+  padding-left: 5px !important;
+}
+
+
+
+.logo{
+  height: inherit;
+}
+
+.navbar-brand{
+  padding: unset;
+}
+.navbar-default{
+  background-color:#0A3973;
+}
+.navbar-default .navbar-nav > li > a{
+  color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active{
+  color: #FFF;
+}
+
+.form-control{
+  height: unset;
+  font-size: inherit;
+  color: blue !important;
+  border-color: #003353;
+}
+
+
+
+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #003353;
+  border-color: #003353;
+  text-transform: uppercase;
+  font-size: inherit;
+}
+.btn-success {
+  background-color: green;
+  border-color: green;
+}
+.panel-title{
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.glyphicon{
+  cursor: pointer;
+  font-size: inherit;
+  padding-left: initial;
+}
+.navbar-nav .glyphicon{
+  font-size: initial;
+  padding-left: 13px;
+}
+
+.table-lg{
+  min-width: 1600px !important;
+}
+.table{
+  min-width: 950px;
+  margin-bottom: 10px;
+}
+.container {
+    width: 50%;
+  }
+
+.modal-content .table{
+ min-width: unset; 
+}
+@media (max-width: 1200px) {
+.table-large{
+    min-width: 1600px !important;
+  }
+}
+@media (min-width: 992px) {
+  .modal-lg-grafico {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn{
+    margin-top: 3px;
+  }
+  .table-responsive > .table > thead > tr > th{
+    white-space: inherit;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    width: 100%;
+  }
+}
+/*
+@media (max-width: 360px) {
+  body {
+    font-size: 9px;
+  }
+  h4{
+   font-size: 10px; 
+  }
+  h6{
+   font-size: 10px; 
+  }
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    padding-right: inherit;
+  }
+  .form-control{
+    padding: 2px 5px
+  }
+  .pull-right{
+    float: unset !important;
+  }
+}
+*/
+.panel-default > .panel-heading{
+  color: white;
+  background: linear-gradient(to right, #003353, #5C98E1) !important;
+  padding: 4px 10px !important;
+}
+.panel-default{
+  border-color: black;
+}
+.panel-body{
+  padding-bottom: 0px;
+  padding: 9px;
+}
+
+.panel-body .btn {
+  font-size: inherit;
+}
+
+table, th, td {
+   border: 1px solid black !important;
+
+}
+table > thead > tr > th  {
+   text-align: center;
+   vertical-align: middle !important;
+}
+
+.link{
+  cursor: pointer;
+}
+
+.modal-header{
+  background: linear-gradient(to right, #003353, #5C98E1) !important;
+  color: white;
+}
+
+.sub-titulo{
+    background: black !important;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.label-read{
+  font-weight: normal !important;
+  text-transform: uppercase;
+}
+.label{
+  font-size: 95%;
+}
+.text-center{
+  text-align: center;
+}
+
+
+.dropdown-menu{
+ font-size: inherit; 
+}
+.table-md > tbody > tr > td , .table-md > tbody > tr > td{
+  text-align: center;
+  padding: 5px !important; 
+}
+.table-md > thead > tr > th{
+ padding: 10px !important; 
+ 
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td
+{
+  padding: 1px;
+
+}
+.table .form-control{
+  border-radius: inherit;
+  padding: inherit;
+  min-width: 95px;
+}
+.table label{
+  min-width: 200px;
+  font-weight: inherit;
+}
+.table label.number{
+  min-width: 82px;
+  text-align: center;
+  font-weight: inherit;
+}
+.table th{
+ text-align: center;
+ vertical-align: middle;
+ background-color: #cedbf3;
+ font-size: 11px;
+ text-transform: uppercase;
+}
+
+.table  td.accion{
+  color: red;
+  text-align: center;
+  vertical-align: middle;
+ 
+}
+
+.table  td.accion .glyphicon{
+  padding-left: initial !important;
+  font-size: 16px;
+}
+.tres-botones .btn{
+    padding: 6px;
+    margin: 2px;
+}
+.tres-botones{
+ width: 120px;
+}
+
+hr {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;;
+}
+
+.input-group-addon{
+  border: 1px solid #003353;
+}

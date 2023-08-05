@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="css/menu-bar.css">
+    <link rel="stylesheet" type="text/css" href="css/menu-scrollbar.min.css">
+
+    <title>SISTEMA DE GESTION DE PREVENCIÓN DE ACCIDENTES FAP</title>
+    <link rel="icon" href="img/logo_cooperacion.png" type="image/x-icon">
+
+  </head>
+<body>
+
+<div class="wrapper"></div>
+
+    <div class="container" style="width:75%;">
+     <div class="row form-group">
+            <div class="col-md-12 text-center">
+             <label class="">MINISTERIO DE DEFENSA - FUERZA AÉREA DEL PERÚ - EJERCICIO COOPERACIÓN IX</label>
+            </div>
+       </div>
+      <div class="row title">
+        <label class="col-sm-12 h4 text-center" style="font-weight: bold;">GRID ANIMATION TEAMS</label>
+      </div>
+
+      <hr>
+   <div class="row">
+            <div class="col-md-4">
+             <label>DATE:</label>
+              <select class="form-control">
+                     <option>ALL</option>
+                      <option>2023-05-08</option>
+                      <option>2023-05-09</option>
+                      <option>2023-05-10</option>
+                      <option>2023-05-11</option>
+                      <option>2023-05-12</option>
+                      <option>2023-05-13</option>
+                    </select>
+            </div>
+            <div class="col-sm-8">
+               <div class="pull-right">
+                      <button class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> SEARCH</button>
+                      <a class="btn btn-primary"  href="setAnimationTeams.html"><span class="glyphicon glyphicon-plus"></span> ADD</a>
+                </div>
+            </div>
+          </div>
+
+   
+     <div class="row">
+       
+       
+      </div>
+
+     <hr>
+
+       <!-- Bandeja Principal -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="table-responsive">
+            <table class="table table-bordered table-md">
+              <thead>
+                <tr>
+                  <th>N°</th>
+                  <th scope="col">DATE</th>
+                  <th scope="col">DOCUMENT</th>
+                  <th scope="col">SUMMARY EVENT</th>
+                  <th scope="col">CREATION DATE</th>
+                  <th scope="col">CREATION USER</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>15/05/2023</td>
+                    <td>DOC_DATE_1.pdf</td>
+                    <td>El día de ayer, martes 7 de marzo, Senamhi...</td>
+                   <td>03/05/2023 14:22</td>
+                    <td>TEN FAP JONATHAN ADRIANZEN MANRIQUE</td>
+                    <td><span class="glyphicon glyphicon-eye-open"></span>
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <span class="glyphicon glyphicon-trash"></span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>14/05/2023</td>
+                    <td>DOC_DATE_2.pdf</td>
+                    <td>De acuerdo al aviso meteorológico N° 44...</td>
+                    <td>03/05/2023 14:22</td>
+                    <td>TEN FAP JONATHAN ADRIANZEN MANRIQUE</td>
+                    <td><span class="glyphicon glyphicon-eye-open"></span>
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <span class="glyphicon glyphicon-trash"></span></td>
+                </tr>
+               
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>  
+      
+     
+
+    </div>
+    
+
+    <!-- Modal NUEVO-->
+    <div class="modal fade bs-example-modal-lg" id="mdlVerPersonal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h5 class="modal-title">DETALLE</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                 
+                <div class="form-group row">
+                  <label class="col-sm-2">PERSONAL INVOLUCRADO:</label>
+                  <div class="col-sm-10">
+                     <textarea class="form-control" disabled rows="3">PERSONAL 1
+PERSONAL 2
+PERSONAL 3</textarea>
+                  </div>
+                </div>
+               
+                </form>
+            </div><!-- FIN modal-body-->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Cerrar</button>
+            </div>
+        </div><!-- FIN modal-content-->
+      </div><!-- FIN modal-dialog-->
+    </div><!-- FIN Modal NUEVO-->
+    
+     <!-- Modal NUEVO-->
+    <div class="modal fade bs-example-modal-lg" id="mdlVerCausa" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h5 class="modal-title">DETALLE</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                 
+                <div class="form-group row">
+                  <label class="col-sm-2">CAUSA PRINCIPAL:</label>
+                  <div class="col-sm-10">
+                     <textarea class="form-control" disabled rows="3">CAUSA 1
+CAUSA 2
+CAUSA 3</textarea>
+                  </div>
+                </div>
+               
+                </form>
+            </div><!-- FIN modal-body-->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Cerrar</button>
+            </div>
+        </div><!-- FIN modal-content-->
+      </div><!-- FIN modal-dialog-->
+    </div><!-- FIN Modal NUEVO-->
+
+
+     <!-- Modal NUEVO-->
+    <div class="modal fade bs-example-modal-lg" id="mdlVerPerconalCont" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h5 class="modal-title">DETALLE</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                 
+                <div class="form-group row">
+                  <label class="col-sm-2">PERSONAL CONTRIBUIDORA:</label>
+                  <div class="col-sm-10">
+                     <textarea class="form-control" disabled rows="3">PERSONAL 1
+PERSONAL 2
+PERSONAL 3</textarea>
+                  </div>
+                </div>
+               
+                </form>
+            </div><!-- FIN modal-body-->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Cerrar</button>
+            </div>
+        </div><!-- FIN modal-content-->
+      </div><!-- FIN modal-dialog-->
+    </div><!-- FIN Modal NUEVO-->
+
+
+       <!-- Modal NUEVO-->
+    <div class="modal fade bs-example-modal-lg" id="mdlDescripcion" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h5 class="modal-title">DETALLE</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                 
+                <div class="form-group row">
+                  <label class="col-sm-2">DESCRIPCIÓN:</label>
+                  <div class="col-sm-10">
+                     <textarea class="form-control" disabled rows="3">DESCRIPCION 1
+DESCRIPCION 2
+DESCRIPCION 3</textarea>
+                  </div>
+                </div>
+               
+                </form>
+            </div><!-- FIN modal-body-->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Cerrar</button>
+            </div>
+        </div><!-- FIN modal-content-->
+      </div><!-- FIN modal-dialog-->
+    </div><!-- FIN Modal NUEVO-->
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dialog/bootstrap-dialog.js"></script>
+    <script type="text/javascript" src="js/Codemaleon/ns.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script type="text/javascript" src="js/menu-scrollbar/menu-scrollbar.min.js"></script>
+    
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/P03Formato2IOARR/index.js"></script>
+    <script type="text/javascript" src="js/P03Formato2IOARR/controller.js"></script>
+    
+
+  </body>
+</html>
